@@ -5,7 +5,7 @@ import baseConfig from './baseConfig';
 console.error = jest.genMockFn();
 
 describe('Zipcelx', () => {
-  const rowsXML = `<row r="1"><c r="A1" t="inlineStr"><is><t>Test</t></is></c><c r="B1"><v>1000</v></c><c r="C1" s="1"><v>1000</v></c><c r="D1" s="2"><v>1000</v></c><c r="E1" s="3"><v>1000</v></c></row>`;
+  const rowsXML = `<row r="1"><c r="A1" t="inlineStr"><is><t>Test</t></is></c><c r="B1"><v>1000</v></c><c r="C1" s="1"><v>36501</v></c><c r="D1" s="2"><v>1000</v></c><c r="E1" s="3"><v>1000</v></c></row>`;
 
   it('Should throw error if validator fails', () => {
     let config = Object.assign({}, baseConfig, { sheet: { data: [{test: 'demo'}] } });

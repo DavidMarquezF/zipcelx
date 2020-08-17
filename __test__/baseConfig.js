@@ -14,7 +14,7 @@ export default {
         type: 'number'
       },
       {
-        value: 1000,
+        value: new Date(1999,12, 10),
         type: 'date'
       },
       {

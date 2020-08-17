@@ -30,7 +30,7 @@ describe('Format Cell', () => {
   });
 
   describe('Create a cell of type date', () => {
-    const expectedXML = '<c r="B1" s="1"><v>1000</v></c>';
+    const expectedXML = '<c r="B1" s="1"><v>36501</v></c>';
     it('Create cell', () => {
       expect(formatCell(cells[2], 1, 1)).toBe(expectedXML);
     });
