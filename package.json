@@ -1,6 +1,6 @@
 {
   "name": "@david_marquez_f/zipcelx",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "JSON Transformer to create .xlsx files",
   "main": "lib/legacy.js",
   "module": "lib/module.js",
