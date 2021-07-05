@@ -1,6 +1,6 @@
 {
   "name": "@david_marquez_f/zipcelx",
-  "version": "1.6.4",
+  "version": "1.6.6",
   "description": "JSON Transformer to create .xlsx files",
   "main": "lib/legacy.js",
   "module": "lib/module.js",
@@ -53,7 +53,7 @@
   },
   "dependencies": {
     "file-saver": "^2.0.0",
-    "jszip": "^3.1.3",
+    "jszip": "^3.6.0",
     "lodash.escape": "^4.0.1"
   }
 }
